@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Kana Teste</title>
+  </head>
+  <body>
+    <form action="/v1/kanamobi/create" method="post" enctype="multipart/form-data">
+      <h1>Olá Amigos :D</h1>
+      <div>
+        <p>
+          <label>Versão</label>
+          <input type="text" name="document_version[version]">
+        </p>
+        <p>
+          <label>Arquivo</label>
+          <input type="file" name="document_version[file]">
+          <input type="hidden" value="11" name="document_version[document_id]"
+        </p>
+        <p>
+          <button type="submit">Enviar</button>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
